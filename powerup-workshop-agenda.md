@@ -26,7 +26,7 @@ The number of problems of interest to utilities which can be formulated clearly 
 The overall aim of this workshop is to **improve reproducibility and accessibility of research in distribution grids**, particularly for problems which can be posed as optimization problems. To achieve this, the [agenda](#what-will-the-workshop-look-like) mixes
 
 - interactive case studies,
-- "Benchmarking Distribution Optimization 101",
+- "Benchmarking Distribution System Optimization 101",
 - networking opportunities,
 
 with a goal to provide steering to the Task Force's direction to follow your interests and address the community's most pressing needs.
@@ -65,7 +65,7 @@ The workshop is aims to be accessible for all interested in modelling and analys
 16:05-16:15: Rest Break 2
 
 - 16:15-16:45: **Small-group discussions: The Future of Distribution System OPF**
-    - Conversation starters:
+    - Conversation starters, e.g.,:
         - "What are the most interesting and challenging distribution system OPF problems today and in the future?"
         - "What emerging methods (AI/ML/Quantum etc) could solve distribution system OPF problems more effectively (e.g.,according to speed, robustness, accuracy)?"
         - "Are you looking for collaborators or a community for an OPF problem you are working on?"
@@ -74,11 +74,11 @@ The workshop is aims to be accessible for all interested in modelling and analys
 
 16:55-17:00: Thanks, workshop close.
 
-**_*Note_**: session titles subject to change.
+**_*Note_**: session titles / details subject to change.
 
 ## Are there any prerequisites or things I would need to bring?
 
-To make the case studies interactive, attendees should bring (or share) a laptop. To run these in the session, that you would have the rights on the laptop to (for example) install Python or Julia packages from a project "requirements" file (e.g., pyproject.toml).
+To make the case studies interactive, attendees should bring (or share) a laptop. To run these in the session, you should also have the rights on the laptop to (for example) install Python or Julia packages from a project "requirements" (e.g., a pyproject.toml file).
 
 A more specific list of requirements will be provided for each of the case studies in advance. We aim for these case studies to all be solvable with freely available tools which could be installed within the session (e.g., we will not require attendees to have commercial solvers installed).
 
@@ -97,7 +97,7 @@ If you are unable to bring your own laptop, we will aim to match you with an att
 
 Email Matt, [matthew.deakin@newcastle.ac.uk](mailto:matthew.deakin@newcastle.ac.uk)
 
-## I have another question.
+## I have another question or comment to share.
 
 Email Matt, [matthew.deakin@newcastle.ac.uk](mailto:matthew.deakin@newcastle.ac.uk)
 
