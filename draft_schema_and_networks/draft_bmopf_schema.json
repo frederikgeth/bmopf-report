@@ -1,7 +1,7 @@
 {
     "$schema":"https://json-schema.org/draft/2020-12/schema",
-    "$id":"https://github.com/frederikgeth/OpenDSSToPMDJSON",
-    "title":"**Draft** BMOPF OPF test case schema",
+    "$id":"https://github.com/frederikgeth/bmopf-report/tree/main/draft_schema_and_networks",
+    "title":"**Draft** BMOPF OPF test case schema v.0.0.1",
     "type": "object",
     "additionalProperties": false,
     "properties": {
