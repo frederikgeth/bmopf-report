@@ -5,7 +5,7 @@ _Note: for details of the upcoming PowerUp 2026 Conference workshop, please see 
 
 This document is curated and maintained by the IEEE PES Task Force on Benchmarking Multiconductor OPF for Distribution Systems, and is designed to evaluate a well established version of the the Optimal Power Flow for Multiconductor distribution networks.
 
-A detailed description of the mathematical model is available in the root of this repository. Please launch issues to discuss issues with the report. Community-based recommendations and contributions are welcome and encouraged in all PGLib repositories. Please feel free to submit comments and questions in the [issue tracker](https://github.com/frederikgeth/bmopf-report/issues).  All data contributions are subject to a quality assurance review by the repository curator(s).
+A detailed description of the mathematical model is available in the root of this repository. The canonical draft JSON Schema is available at `schema/bmopf.json`; `draft_schema_and_networks/draft_bmopf_schema.json` is kept as a synced copy for existing users. Please launch issues to discuss issues with the report. Community-based recommendations and contributions are welcome and encouraged in all PGLib repositories. Please feel free to submit comments and questions in the [issue tracker](https://github.com/frederikgeth/bmopf-report/issues).  All data contributions are subject to a quality assurance review by the repository curator(s).
 
 Specific versions of the report will be archived on arXiv.
 
