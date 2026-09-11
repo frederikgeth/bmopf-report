@@ -45,6 +45,8 @@ The workshop is aims to be accessible for all interested in modelling and analys
 - 13.30-14.05: **Welcome; Barriers to Reproducible and Accessible Research** [M. Deakin]
 - 14.05-14.20: **Tooling for Benchmarking** [S. Talkington]
     - [PowerIO](https://github.com/eigenergy/powerio): Compiler Infrastructure for Power Systems
+    - Slides: [PowerIO_Compiler_Infrastructure_PowerUp_2026_ST.pdf](https://github.com/distribution-system-opt/bmopf-resources/blob/main/powerup-2026-workshop/PowerIO_Compiler_Infrastructure_PowerUp_2026_ST.pdf)
+    - Demo: [Multiconductor AC power flow in the browser with tellegen](https://github.com/distribution-system-opt/bmopf-resources/tree/main/powerup-2026-workshop/tutorials/Multiconductor-Power-Flow-in-the-Browser-with-tellegen). A browser is all you need.
 - 14.20-14.50: **Interactive Case Study 1** [M. Vanin]
     - "From High-Quality Data Models to High-Fidelity Network Models"
     - See [setup.md](https://github.com/distribution-system-opt/bmopf-resources/blob/main/powerup-2026-workshop/tutorials/From-High-Quality-Data-Models-to-High-Fidelity-Network-Models/SETUP.md) which will install everything you need for the [notebook](https://github.com/distribution-system-opt/bmopf-resources/blob/main/powerup-2026-workshop/tutorials/From-High-Quality-Data-Models-to-High-Fidelity-Network-Models/From-High-Quality-Data-Models-to-High-Fidelity-Network-Models.ipynb)

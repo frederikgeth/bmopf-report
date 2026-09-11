@@ -1,0 +1,456 @@
+{
+ "type": "FeatureCollection",
+ "powerio_geo": {
+  "space": "diagram"
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "611"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     100.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "632"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     200.0,
+     250.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "633"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     350.0,
+     250.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "634"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     400.0,
+     250.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "645"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.0,
+     250.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "646"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     250.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "650"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     200.0,
+     350.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "652"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "670"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     200.0,
+     200.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "671"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     200.0,
+     100.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "675"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     400.0,
+     100.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "680"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     200.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "684"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.0,
+     100.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "692"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     250.0,
+     100.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "RG60"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     200.0,
+     300.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus": "SourceBus"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     200.0,
+     400.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "632",
+    "bus_to": "633"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      200.0,
+      250.0
+     ],
+     [
+      350.0,
+      250.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "632",
+    "bus_to": "645"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      200.0,
+      250.0
+     ],
+     [
+      100.0,
+      250.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "632",
+    "bus_to": "670"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      200.0,
+      250.0
+     ],
+     [
+      200.0,
+      200.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "645",
+    "bus_to": "646"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      100.0,
+      250.0
+     ],
+     [
+      0.0,
+      250.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "RG60",
+    "bus_to": "632"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      200.0,
+      300.0
+     ],
+     [
+      200.0,
+      250.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "670",
+    "bus_to": "671"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      200.0,
+      200.0
+     ],
+     [
+      200.0,
+      100.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "671",
+    "bus_to": "680"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      200.0,
+      100.0
+     ],
+     [
+      200.0,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "671",
+    "bus_to": "684"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      200.0,
+      100.0
+     ],
+     [
+      100.0,
+      100.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "684",
+    "bus_to": "611"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      100.0,
+      100.0
+     ],
+     [
+      0.0,
+      100.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "684",
+    "bus_to": "652"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      100.0,
+      100.0
+     ],
+     [
+      100.0,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "692",
+    "bus_to": "675"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      250.0,
+      100.0
+     ],
+     [
+      400.0,
+      100.0
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "bus_from": "671",
+    "bus_to": "692"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      200.0,
+      100.0
+     ],
+     [
+      250.0,
+      100.0
+     ]
+    ]
+   }
+  }
+ ]
+}
