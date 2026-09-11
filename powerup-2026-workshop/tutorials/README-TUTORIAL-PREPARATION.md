@@ -37,3 +37,9 @@ Pkg.add("Ipopt")
 ```
 
 Make sure these are installed in the same environment as the notebook.
+
+## Demo `Multiconductor AC power flow in the browser with tellegen`
+
+No installation. Bring a laptop with a current browser and download the two files in
+[`Multiconductor-Power-Flow-in-the-Browser-with-tellegen`](Multiconductor-Power-Flow-in-the-Browser-with-tellegen/);
+the README there lists the steps.
