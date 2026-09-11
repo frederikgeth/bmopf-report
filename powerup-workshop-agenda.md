@@ -18,6 +18,7 @@ The workshop is sponsored by a new community initiative, the IEEE Task Force on 
 
 *Full conference link:* [PowerUp 2026](https://power-up.us/)
 
+Workshop resources [available](https://github.com/distribution-system-opt/bmopf-resources/tree/main/powerup-2026-workshop/) in this repo
 
 ## Why a workshop, and why PowerUp 2026?
 
@@ -26,7 +27,7 @@ The number of problems of interest to utilities which can be formulated clearly 
 The overall aim of this workshop is to **improve reproducibility and accessibility of research in distribution grids**, particularly for problems which can be posed as optimization problems. To achieve this, the [agenda](#what-will-the-workshop-look-like) mixes
 
 - interactive case studies,
-- "Benchmarking Distribution System Optimization 101",
+- introduction to powerful new tools to enable reproducible, accessible, and transparent research, 
 - networking opportunities,
 
 with discussions to highlight the community's most pressing needs and explore how these could be addressed.
@@ -41,45 +42,42 @@ The workshop is aims to be accessible for all interested in modelling and analys
 
 13.30-13.35: Welcome
 
-- 13.35-14.05: **Barriers to Reproducible and Accessible Research and Data Models to Address These** [M. Deakin]
-    - Overview of the "reproducibility gap" in research into distribution systems analysis; why this matters; and what can be done to address this
-- 14.05-14.15: **PowerIO: Compiler Infrastructure for Power Systems** [S. Talkington]
-    - Demo of the community-based [PowerIO](https://github.com/eigenergy/powerio) package for translation to/from data formats
-- 14.15-14.45: **Interactive Case Study 1** [M. Vanin]
+- 13.30-14.05: **Welcome; Barriers to Reproducible and Accessible Research** [M. Deakin]
+- 14.05-14.20: **Tooling for Benchmarking** [S. Talkington]
+    - [PowerIO](https://github.com/eigenergy/powerio): Compiler Infrastructure for Power Systems
+- 14.20-14.50: **Interactive Case Study 1** [M. Vanin]
     - "From High-Quality Data Models to High-Fidelity Network Models"
-    - _Link to resource coming summer 2026_
+    - See [setup.md](https://github.com/distribution-system-opt/bmopf-resources/blob/main/powerup-2026-workshop/tutorials/From-High-Quality-Data-Models-to-High-Fidelity-Network-Models/SETUP.md) which will install everything you need for the [notebook](https://github.com/distribution-system-opt/bmopf-resources/blob/main/powerup-2026-workshop/tutorials/From-High-Quality-Data-Models-to-High-Fidelity-Network-Models/From-High-Quality-Data-Models-to-High-Fidelity-Network-Models.ipynb)
 
-14.45-14.55: Rest break 1
+14.50-15.00: Rest break 1
 
-- 14.55-15.20: **Benchmarking Distribution System Optimization 101 (part 2/2)** [A. Pandey, M. Vanin, M. Deakin]
-    - "How should we think about Distribution OPF differently from Transmission OPF?"
-    - _Link to resource coming summer 2026_
-- 15:20-15:50: **Interactive Case Study 2** [A. Inaolaji]
+- 15.00-15.30: **How is Distribution OPF different from Transmission OPF?** [A. Pandey, M. Vanin]
+- 15:30-16:00: **Interactive Case Study 2** [A. Inaolaji]
     - "Modeling Smart Inverters in Distribution OPF"
-    - _Link to resource coming summer 2026_
-- 15:50-16:00: **Interactive Case Study 3** [A. Pandey]
+    - See [prerequesites](https://epsrlab-ub.github.io/SmartInverter-3P-DOPF-POWERUP.jl/dev/tutorial_voltvar/#Prerequisites) to follow the workshop
+
+
+16:00-16:10: Rest Break 2
+
+- 16:10-16.25: **Interactive Case Study 3** [A. Pandey]
     - "Physics-based OPF with IBRs in Unbalanced Distribution Grids"
-    - _Link to resource coming summer 2026_
+    - Demos walked through available [here](https://github.com/emmanuelbadmus/inverter-distribution-opf)
 
-16:05-16:15: Rest Break 2
-
-- 16:15-16:45: **Small-group discussions: The Future of Distribution System OPF** [Facilitated discussions]
-    - Discussions with provocations:
-        - "How can the community be encouraged to support industrially relevant problems?"
-        - "What emerging methods (AI/ML etc) may solve distribution system OPF problems more effectively (e.g., according to speed, robustness, accuracy)?"
-        - "How could physics-based benchmarking efforts support and complement data-driven methods?"
-        - "Are you looking for collaborators or a community for an OPF problem you are working on?"
+- 16:25-16:45: **Small-group discussions: The Future of Distribution System OPF** [Facilitated discussions]
+    - Provocations:
+        - How can the distribution system OPF community be encouraged to work on industrially relevant problems?
+        - Is there a role for physics-based OPF for distribution systems in 10-20 years?
+        - Are the main problems of *your* utility today addressable through an OPF, and could they form interesting benchmark problems?
+        - What are the reasons that you do / do not make your research Reproducible, Accessible and/or Transparent, and, does AI change the calculus?
+        - Should Reproducible, Accessible, and Transparent outputs be necessary for publication at PowerUp (and, longer-term, IEEE PES transactions, etc)?
 - 16:45-16:55: **Round-table reflective discussion**
     - Attendees and facilitators invited to share discussion points.
-
 16:55-17:00: Thanks, workshop close.
 
 
 ## Are there any prerequisites or things I would need to bring?
 
-To interact with case studies, attendees should bring (or share) a laptop. To run these in the session, you should also have the rights on the laptop to (for example) install Python or Julia packages from a project "requirements" (e.g., a pyproject.toml file).
-
-A more specific list of requirements will be provided for each of the case studies in advance. We aim for these case studies to all be solvable with freely available tools which could be installed within the session (e.g., we will not require attendees to have commercial solvers installed).
+To interact with case studies, attendees should bring (or share) a laptop. To run these in the session, you should also have the rights on the laptop to (for example) install Python or Julia packages from a project "requirements" (e.g., a pyproject.toml file).The specific list of requirements are listed in the links in the setup / installations mentioned for the interactive case studies in the [agenda](#what-will-the-workshop-look-like).
 
 If you are unable to bring your own laptop, we will aim to match you with an attendee that does has these capabilities, so you can work together through the cases.
 
